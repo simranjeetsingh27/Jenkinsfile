@@ -14,7 +14,7 @@ pipeline {
 
                 #!/bin/bash
 
-                curl -X POST 'http://admin:56a4fe9790dd468c9ce75de99fa65f6c@18.204.211.163:8080/credentials/store/system/domain/_/createCredentials' --data-urlencode 'json={
+                curl -X POST 'http://admin:113ea56b542086fc33aa33ebdc3849a4b1@18.204.211.163:8080/credentials/store/system/domain/_/createCredentials' --data-urlencode 'json={
 
                   "": "0",
 
