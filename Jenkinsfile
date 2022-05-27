@@ -22,7 +22,7 @@ pipeline {
 
                     "scope": "GLOBAL",
 
-                    "id": "hh",
+                    "id": "testing",
 
                     "username": "'"admin"'",
 
