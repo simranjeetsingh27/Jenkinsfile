@@ -36,7 +36,7 @@
                         echo "username is $username"
                         sh '''
                 #!/bin/bash
-                curl -X DELETE 'http://admin:113ea56b5420849a4b1@18.204.211.163:8080/credentials/store/system/domain/_/createCredentials' --data-urlencode 'json={
+                curl -X DELETE 'http://admin:113e9a4b1@18.204.211.163:8080/credentials/store/system/domain/_/createCredentials' --data-urlencode 'json={
                   "": "0",
                   "credentials": {
                     "scope": "GLOBAL",
