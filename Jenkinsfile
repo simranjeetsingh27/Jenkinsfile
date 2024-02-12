@@ -11,7 +11,7 @@
                     steps {
                         sh '''
                 #!/bin/bash
-                curl -X DELETE 'http://admin:113ec33a1@18.204.211.13:8080//credentials/store/system/domain/_/credential/ab347119-9e7a-4336-904d-42a6f7713750/delete' --data-urlencode 'json={
+                curl -X DELETE 'http://admin:113ec33a1@18.204.13:8080//credentials/store/system/domain/_/credential/ab347119-9e7a-4336-904d-42a6f7713750/delete' --data-urlencode 'json={
                   "": "0",
                   "credentials": {
                     "scope": "GLOBAL",
